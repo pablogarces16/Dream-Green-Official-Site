@@ -1456,7 +1456,7 @@ a.menu-toggle {
  */
 
 #process {
-	background: #FFFFFF;
+	background: #EAE9EC;
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 	overflow: hidden;
@@ -1486,7 +1486,7 @@ a.menu-toggle {
 .process-content .image-part {
 	margin: 0 auto;
 	height: 660px;
-	background-image: url("../images/phonedgrev.png");
+	background-image: url("../images/iphoneview.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	-webkit-background-size: contain;
