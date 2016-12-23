@@ -158,10 +158,19 @@ h6, .h06 {
 p img {
 	margin: 0;
 }
+#homebtns {
+	margin-top: 60px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
 #emailfieldcoming {
 	display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+		background: #075F56;
+		color: white;
+		border-color: #A5DED7;
+		border-width: medium;
 
 }
 
@@ -720,7 +729,7 @@ button.round, .button.round {
 	border-radius: 1000px;
 }
 button.stroke, .button.stroke {
-	background: transparent !important;
+	background: transparent;
 	border: 3px solid transparent;
 	line-height: 4.4rem;
 }
@@ -1251,8 +1260,10 @@ a.menu-toggle {
 	letter-spacing: .4rem;
 }
 .intro-content .button:hover, .intro-content .button:focus {
-	color: #05bca9;
-	border-color: #05bca9;
+	color: #d2eeeb;
+	border-color: #d2eeeb;
+	background-color: #075f56;
+
 }
 
 /**
