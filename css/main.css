@@ -785,6 +785,18 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	bottom: 0;
 	margin-left: -60px;
 }
+.bottom-line{
+	display: block;
+	background-color: #05bca9;
+	width: 120px;
+	height: 3px;
+	content: '\0020';
+	position: absolute;
+	left: 50%;
+	bottom: 0%;
+	margin-left: -60px;
+}
+
 @media only screen and (max-width:600px) {
 	section .h01 {
 		font-size: 2.5rem;
@@ -1472,18 +1484,25 @@ a.menu-toggle {
 	padding-bottom: 15rem;
 	overflow: hidden;
 }
+#process-2 {
+	background: white;
+	padding-top: 12rem;
+	padding-bottom: 15rem;
+	overflow: hidden;
+}
 .process-content {
 	position: relative;
 	text-align: center;
 }
 .process-content .right-side,
 .process-content .left-side,
+.process-content .left-side-2,
 .process-content .image-part {
-	width: 33.33333%;
+	width: 40%;
 	font-size: 15px;
 	line-height: 27px;
 }
-.process-content .right-side, .process-content .left-side {
+.process-content .right-side, .process-content .left-side, .process-content .left-side-2 {
 	padding: 0 6% 24px;
 	position: absolute;
 	top: 0;
@@ -1492,14 +1511,16 @@ a.menu-toggle {
 	right: 0;
 }
 .process-content .left-side {
-	left: 0;
+	left: 10%;
+}
+.process-content .left-side-2 {
+	right: 15%;
 }
 .process-content .image-part {
 	margin: 0 auto;
 	height: 660px;
 	background-image: url("../images/iphoneview.png");
 	background-repeat: no-repeat;
-	background-position: center;
 	-webkit-background-size: contain;
 	-moz-background-size: contain;
 	background-size: contain;
@@ -1526,7 +1547,14 @@ a.menu-toggle {
 	letter-spacing: .2rem;
 	margin-bottom: .3rem;
 }
-
+.right-info{
+	position: relative;
+	left: 20%;
+}
+.left-info{
+	position: relative;
+	right: 15%;
+}
 /**
  * responsive:
  * process
@@ -1534,7 +1562,7 @@ a.menu-toggle {
  */
 
 @media only screen and (max-width:1024px) {
-	.process-content .right-side, .process-content .left-side {
+	.process-content .right-side, .process-content .left-side, .process-content .left-side-2 {
 		padding: 0 3% 24px;
 		width: 35%;
 	}
@@ -1547,7 +1575,7 @@ a.menu-toggle {
 	#process {
 		padding-bottom: 27rem;
 	}
-	.process-content .right-side, .process-content .left-side {
+	.process-content .right-side, .process-content .left-side, .process-content .left-side-2 {
 		position: static;
 		width: 100%;
 		max-width: 480px;
@@ -1555,14 +1583,14 @@ a.menu-toggle {
 		line-height: 3rem;
 		margin-left: auto;
 		margin-right: auto;
-		padding-bottom: 0;
+		padding-bottom: 6;
 	}
 	.process-content .image-part {
 		width: 300px;
 		position: absolute;
 		bottom: -630px;
 		left: 50%;
-		margin-left: -150px;
+		margin-left: -100px;
 	}
 }
 @media only screen and (max-width:400px) {
