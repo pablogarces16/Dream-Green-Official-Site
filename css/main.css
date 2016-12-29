@@ -879,7 +879,7 @@ header .logo a {
 	color: transparent;
 	width: 200px;
 	height: 46px;
-	background: url("../images/livegreenlogonew.png") no-repeat center;
+	background: url("../images/lgnewgreen.png") no-repeat center;
 	background-size: 200px 46px;
 	-moz-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
@@ -1479,13 +1479,13 @@ a.menu-toggle {
  */
 
 #process {
-	background: #EAE9EC;
+	background: #F1F2F2;
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 	overflow: hidden;
 }
 #process-2 {
-	background: white;
+	background: #F1F2F2;
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 	overflow: hidden;
@@ -1629,9 +1629,11 @@ a.menu-toggle {
  *
  * -------------------------------------------------------------------
  */
+#features .headfeats {
 
+}
 #features {
-	background: #090909 url(../images/features-bg.jpg) no-repeat center;
+	background: white; /*url(../images/patback2.png) no-repeat center;*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1640,10 +1642,10 @@ a.menu-toggle {
 	color: white;
 }
 #features .section-intro h1 {
-	color: white;
+  color: #252525;
 }
 #features .section-intro h5 {
-	color: rgba(255, 255, 255, 0.5);
+	color: #656C76;
 }
 #features .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
@@ -2098,7 +2100,7 @@ a.menu-toggle {
  */
 
 #faq {
-	background: #EAEAED;
+	background: #F1F2F2;
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 }
@@ -2308,7 +2310,7 @@ footer ul li {
 .footer-main .footer-logo {
 	width: 200px;
 	height: 46px;
-	background: url("../images/livegreenlogonew.png") no-repeat center;
+	background: url("../images/lgnewgreen.png") no-repeat center;
 	background-size: 200px 46px;
 	margin: -.6rem 0 2.1rem -.3rem;
 	display: block;
