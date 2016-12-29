@@ -1527,7 +1527,7 @@ a.menu-toggle {
 .process-content .image-part-two {
 	margin: 0 auto;
 	height: 660px;
-	background-image: url("../images/phonedeetsrev.png");
+	background-image: url("../images/phoneviewdeets.png");
 	background-repeat: no-repeat;
 	-webkit-background-size: contain;
 	-moz-background-size: contain;
@@ -1536,7 +1536,7 @@ a.menu-toggle {
 .process-content .image-part-one {
 	margin: 0 auto;
 	height: 660px;
-	background-image: url("../images/phonehomerev.png");
+	background-image: url("../images/phonehome.png");
 	background-repeat: no-repeat;
 	-webkit-background-size: contain;
 	-moz-background-size: contain;
