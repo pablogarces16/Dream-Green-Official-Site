@@ -1497,7 +1497,15 @@ a.menu-toggle {
 .process-content .right-side,
 .process-content .left-side,
 .process-content .left-side-2,
-.process-content .image-part {
+.process-content .image-part-two {
+	width: 40%;
+	font-size: 15px;
+	line-height: 27px;
+}
+.process-content .right-side,
+.process-content .left-side,
+.process-content .left-side-2,
+.process-content .image-part-one {
 	width: 40%;
 	font-size: 15px;
 	line-height: 27px;
@@ -1516,15 +1524,25 @@ a.menu-toggle {
 .process-content .left-side-2 {
 	right: 15%;
 }
-.process-content .image-part {
+.process-content .image-part-two {
 	margin: 0 auto;
 	height: 660px;
-	background-image: url("../images/androidhomelg.png");
+	background-image: url("../images/phonedeetsrev.png");
 	background-repeat: no-repeat;
 	-webkit-background-size: contain;
 	-moz-background-size: contain;
 	background-size: contain;
 }
+.process-content .image-part-one {
+	margin: 0 auto;
+	height: 660px;
+	background-image: url("../images/phonehomerev.png");
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	background-size: contain;
+}
+
 .process-content .item[data-item]::before {
 	background: #38424e;
 	color: #FFFFFF;
