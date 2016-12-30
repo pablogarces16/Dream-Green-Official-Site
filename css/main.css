@@ -1527,7 +1527,7 @@ a.menu-toggle {
 .process-content .image-part-two {
 	margin: 0 auto;
 	height: 660px;
-	background-image: url("../images/phoneviewdeets.png");
+	background-image: url("../images/scoreupdated.png");
 	background-repeat: no-repeat;
 	-webkit-background-size: contain;
 	-moz-background-size: contain;
@@ -1536,7 +1536,7 @@ a.menu-toggle {
 .process-content .image-part-one {
 	margin: 0 auto;
 	height: 660px;
-	background-image: url("../images/phonehome.png");
+	background-image: url("../images/homeupdatedrevph.png");
 	background-repeat: no-repeat;
 	-webkit-background-size: contain;
 	-moz-background-size: contain;
@@ -1633,7 +1633,7 @@ a.menu-toggle {
 
 }
 #features {
-	background: white; /*url(../images/patback2.png) no-repeat center;*/
+	background: white; /* url(../images/features-bg.jpg) no-repeat center;*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
