@@ -158,6 +158,9 @@ h6, .h06 {
 p img {
 	margin: 0;
 }
+#footercredit {
+	text-align: center;
+}
 #toptxter {
 	margin-top: 30px;
 }
@@ -1577,7 +1580,7 @@ a.menu-toggle {
 }
 .left-info{
 	position: relative;
-	right: 13%;
+	right: 21%;
 }
 /**
  * responsive:
@@ -1590,12 +1593,42 @@ a.menu-toggle {
 		padding: 0 3% 24px;
 		width: 35%;
 	}
+
 	.process-content .image-part {
 		height: 600px;
-		width: 30%;
+		width: 80%;
 	}
+
+
 }
 @media only screen and (max-width:768px) {
+	.process-content .image-part-two {
+		height: 500px;
+		width: 80%;
+	}
+	.process-content .image-part-one {
+		height: 500px;
+		width: 80%;
+	}
+	.process-content .image-part-two {
+		margin: 0 auto;
+		height: 660px;
+		background-image: url("../images/scoreupdated.png");
+		background-repeat: no-repeat;
+		-webkit-background-size: contain;
+		-moz-background-size: contain;
+		background-size: contain;
+	}
+	.process-content .image-part-one {
+		margin: 0 auto;
+		height: 660px;
+		background-image: url("../images/homeupdatedrevph.png");
+		background-repeat: no-repeat;
+		-webkit-background-size: contain;
+		-moz-background-size: contain;
+		background-size: contain;
+	}
+
 	#process {
 		padding-top: 10%;
 		padding-bottom: 0;
@@ -1622,8 +1655,7 @@ a.menu-toggle {
 		margin-left: -100px;
 	}
 	.process-content .image-part-one, .process-content .image-part-two{
-		margin: 0;
-		height: 270px;
+
 	}
 	.right-info, .left-info{
 		position: relative;
@@ -1636,14 +1668,23 @@ a.menu-toggle {
   }
 }
 @media only screen and (max-width:400px) {
+	.process-content .image-part-two {
+		height: 350px;
+		width: 80%;
+	}
+	.process-content .image-part-one {
+		height: 350px;
+		width: 80%;
+	}
 	#process {
 		padding-bottom: 0;
 	}
-	.process-content .image-part {
+	/*.process-content .image-part {
 		width: 230px;
 		bottom: -540px;
 		margin-left: -115px;
-	}
+	}*/
+
 }
 
 
