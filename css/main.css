@@ -158,9 +158,6 @@ h6, .h06 {
 p img {
 	margin: 0;
 }
-#footercredit {
-	text-align: center;
-}
 #toptxter {
 	margin-top: 30px;
 }
@@ -1505,16 +1502,14 @@ a.menu-toggle {
 }
 .process-content .right-side,
 .process-content .left-side,
-.process-content .left-side-2,
-.process-content .image-part-two {
+.process-content .left-side-2 {
 	width: 40%;
 	font-size: 15px;
 	line-height: 27px;
 }
 .process-content .right-side,
 .process-content .left-side,
-.process-content .left-side-2,
-.process-content .image-part-one {
+.process-content .left-side-2 {
 	width: 40%;
 	font-size: 15px;
 	line-height: 27px;
@@ -1531,10 +1526,10 @@ a.menu-toggle {
 	left: 10%;
 }
 .process-content .left-side-2 {
-	right: 15%;
+	right: 10%;
 }
 .process-content .image-part-two {
-	margin: 0 auto;
+	margin: 0;
 	height: 660px;
 	background-repeat: no-repeat;
 	-webkit-background-size: contain;
@@ -1542,9 +1537,12 @@ a.menu-toggle {
 	background-size: contain;
 }
 .process-content .image-part-one {
-	margin: 0 auto;
+	margin: 0;
 	height: 660px;
 	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	background-size: contain;
 }
 
 .process-content .item[data-item]::before {
@@ -1588,53 +1586,20 @@ a.menu-toggle {
 		padding: 0 3% 24px;
 		width: 35%;
 	}
-
 	.process-content .image-part {
 		height: 600px;
-		width: 80%;
+		width: 30%;
 	}
-<<<<<<< Updated upstream
-
-
-=======
 	.right-info{
 		position: relative;
-		left: 18%;
+		left: 20%;
 	}
 	.left-info{
 		position: relative;
-		right: 18%;
+		right: 20%;
 	}
->>>>>>> Stashed changes
 }
 @media only screen and (max-width:768px) {
-	.process-content .image-part-two {
-		height: 500px;
-		width: 80%;
-	}
-	.process-content .image-part-one {
-		height: 500px;
-		width: 80%;
-	}
-	.process-content .image-part-two {
-		margin: 0 auto;
-		height: 660px;
-		background-image: url("../images/scoreupdated.png");
-		background-repeat: no-repeat;
-		-webkit-background-size: contain;
-		-moz-background-size: contain;
-		background-size: contain;
-	}
-	.process-content .image-part-one {
-		margin: 0 auto;
-		height: 660px;
-		background-image: url("../images/homeupdatedrevph.png");
-		background-repeat: no-repeat;
-		-webkit-background-size: contain;
-		-moz-background-size: contain;
-		background-size: contain;
-	}
-
 	#process {
 		padding-top: 10%;
 		padding-bottom: 0;
@@ -1661,13 +1626,9 @@ a.menu-toggle {
 		margin-left: -100px;
 	}
 	.process-content .image-part-one, .process-content .image-part-two{
-<<<<<<< Updated upstream
-
-=======
 		margin: 0;
 		height: 600px;
 		width: auto;
->>>>>>> Stashed changes
 	}
 	.right-info, .left-info{
 		position: relative;
@@ -1680,23 +1641,14 @@ a.menu-toggle {
   }
 }
 @media only screen and (max-width:400px) {
-	.process-content .image-part-two {
-		height: 350px;
-		width: 80%;
-	}
-	.process-content .image-part-one {
-		height: 350px;
-		width: 80%;
-	}
 	#process {
 		padding-bottom: 0;
 	}
-	/*.process-content .image-part {
+	.process-content .image-part {
 		width: 230px;
 		bottom: -540px;
 		margin-left: -115px;
-	}*/
-
+	}
 }
 
 
