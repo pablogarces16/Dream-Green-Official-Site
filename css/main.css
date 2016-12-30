@@ -1610,7 +1610,7 @@ a.menu-toggle {
 	}
 	.process-content .right-side, .process-content .left-side, .process-content .left-side-2 {
 		position: static;
-		width: 100%;
+		width: auto;
 		max-width: 480px;
 		font-size: 1.6rem;
 		line-height: 3rem;
