@@ -158,8 +158,14 @@ h6, .h06 {
 p img {
 	margin: 0;
 }
+#toptxter {
+	margin-top: 30px;
+}
+#homedescriptor {
+	margin-bottom: 40px;
+}
 #homebtns {
-	margin-top: 60px;
+	margin-top: 10px;
 	margin-left: 10px;
 	margin-right: 10px;
 }
