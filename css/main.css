@@ -1536,7 +1536,6 @@ a.menu-toggle {
 .process-content .image-part-two {
 	margin: 0 auto;
 	height: 660px;
-	background-image: url("../images/scoreupdated.png");
 	background-repeat: no-repeat;
 	-webkit-background-size: contain;
 	-moz-background-size: contain;
@@ -1545,11 +1544,7 @@ a.menu-toggle {
 .process-content .image-part-one {
 	margin: 0 auto;
 	height: 660px;
-	background-image: url("../images/homeupdatedrevph.png");
 	background-repeat: no-repeat;
-	-webkit-background-size: contain;
-	-moz-background-size: contain;
-	background-size: contain;
 }
 
 .process-content .item[data-item]::before {
@@ -1598,8 +1593,19 @@ a.menu-toggle {
 		height: 600px;
 		width: 80%;
 	}
+<<<<<<< Updated upstream
 
 
+=======
+	.right-info{
+		position: relative;
+		left: 18%;
+	}
+	.left-info{
+		position: relative;
+		right: 18%;
+	}
+>>>>>>> Stashed changes
 }
 @media only screen and (max-width:768px) {
 	.process-content .image-part-two {
@@ -1655,12 +1661,18 @@ a.menu-toggle {
 		margin-left: -100px;
 	}
 	.process-content .image-part-one, .process-content .image-part-two{
+<<<<<<< Updated upstream
 
+=======
+		margin: 0;
+		height: 600px;
+		width: auto;
+>>>>>>> Stashed changes
 	}
 	.right-info, .left-info{
 		position: relative;
-		left: 30%;
-		height: 500px;
+		left: 0%;
+		height: auto;
 	}
 	#idea {
   	background: #FFFFFF;
