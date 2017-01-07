@@ -2333,7 +2333,7 @@ footer ul li {
 .footer-main ul a, .footer-main ul a:visited {
 	color: #465166;
 }
-.footer-main ul a:hover, .footer-main ul a:focus {
+.footer-main ul a:hover {
 	color: #FFFFFF;
 }
 .footer-main .footer-logo {
