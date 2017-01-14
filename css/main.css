@@ -19,7 +19,7 @@
  * 10. features section
  * 11. pricing section
  * 12. testimomials section
- * 13. faq section
+ * 13. support section
  *	14. ad-section
  *	15. call-to-action section
  *	16. footer
@@ -2123,42 +2123,42 @@ a.menu-toggle {
 
 /**
  * ===================================================================
- * faq section
+ * support section
  *
  * -------------------------------------------------------------------
  */
 
-#faq {
+#support {
 	background: #F1F2F2;
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 }
-.faq-content {
+.support-content {
 	margin-top: 5.4rem;
 	max-width: 1020px;
 }
-.faq-content .bgrid {
+.support-content .bgrid {
 	padding: 0 30px;
 }
 
 /**
  * responsive:
- * faq
+ * support
  * -
  */
 
 @media only screen and (max-width:768px) {
-	.faq-content {
+	.support-content {
 		max-width: 650px;
 	}
 }
 @media only screen and (max-width:480px) {
-	.faq-content .bgrid {
+	.support-content .bgrid {
 		padding: 0 20px;
 	}
 }
 @media only screen and (max-width:400px) {
-	.faq-content .bgrid {
+	.support-content .bgrid {
 		padding: 0;
 	}
 }
@@ -2172,10 +2172,7 @@ a.menu-toggle {
  */
 
 .section-ads {
-	margin-top: 4.8rem;
-	padding-top: 6rem;
 	max-width: 650px;
-	border-top: 1px dotted rgba(0, 0, 0, 0.1);
 	text-align: center;
 }
 .section-ads h2 a, .section-ads h2 a:visited {
