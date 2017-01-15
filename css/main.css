@@ -87,7 +87,6 @@ body {
  */
 
 a, a:visited {
-	color: #0087cc;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -2200,7 +2199,7 @@ a.menu-toggle {
 #cta {
 	background: #05bca9;
 	padding-top: 7.2rem;
-	padding-bottom: 9rem;
+	padding-bottom: 7.2rem;
 	text-align: center;
 	color: #FFFFFF;
 }
@@ -2291,23 +2290,20 @@ a.menu-toggle {
  */
 
 footer {
-	padding-bottom: 3rem;
 	font-size: 1.5rem;
 	line-height: 2.7rem;
 	font-family: "raleway-medium", sans-serif;
 	color: #465166;
 }
-footer a, footer a:visited {
-	color: #05bca9;
-}
-footer a:hover, footer a:focus {
+footer a{
 	color: #FFFFFF;
-}
-footer h4 {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.03);
 	padding-bottom: 1.2rem;
 	margin-bottom: 1.2rem;
 	color: #FFFFFF;
+}
+footer a:hover{
+	color: #05bca9;
 }
 footer ul {
 	margin-left: 0;
@@ -2316,8 +2312,7 @@ footer ul li {
 	padding-left: 0;
 }
 .footer-main {
-	padding-top: 6.6rem;
-	padding-bottom: 4.2rem;
+	padding-top: 3rem;
 	background: #171b23;
 }
 .footer-main ul {
@@ -2326,12 +2321,6 @@ footer ul li {
 .footer-main ul li {
 	font-family: "raleway-bold", sans-serif;
 	list-style: none;
-}
-.footer-main ul a, .footer-main ul a:visited {
-	color: #465166;
-}
-.footer-main ul a:hover {
-	color: #FFFFFF;
 }
 .footer-main .footer-logo {
 	width: 200px;
@@ -2386,8 +2375,9 @@ footer ul li {
 	color: #545454 !important;
 }
 .footer-bottom {
-	margin-top: 3rem;
+	margin-top: 1.5rem;
 	text-align: center;
+	padding-bottom: 1.5em;
 }
 .footer-bottom .copyright span {
 	display: inline-block;
@@ -2420,6 +2410,7 @@ footer ul li {
 @media only screen and (max-width:600px) {
 	.footer-main .row {
 		max-width: 420px;
+		text-align: center;
 	}
 	.footer-main .footer-subscribe {
 		text-align: center;
