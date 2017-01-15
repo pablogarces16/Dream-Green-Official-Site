@@ -55,11 +55,13 @@ html {
 	font-size: 10px;
 }
 @media only screen and (max-width:1024px) {
+
 	html {
 		font-size: 9.375px;
 	}
 }
 @media only screen and (max-width:768px) {
+
 	html {
 		font-size: 10px;
 	}
@@ -159,6 +161,9 @@ p img {
 }
 #toptxter {
 	margin-top: 30px;
+}
+#toptxtteam {
+	margin-top: 80px;
 }
 #homedescriptor {
 	margin-bottom: 40px;
@@ -749,7 +754,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  *
  * -------------------------------------------------------------------
  */
-
+.teamIntro {
+	height: 100px;
+}
 .section-intro {
 	max-width: 700px;
 	text-align: center;
@@ -960,7 +967,7 @@ a.menu-toggle {
 	margin: 0;
 	height: 66px;
 }
-.main-navigation li.current a {
+.main-navigation li. a {
 	color: #FFFFFF;
 }
 .main-navigation li.current a::after {
@@ -983,6 +990,9 @@ a.menu-toggle {
 }
 .main-navigation li.highlight a {
 	color: #05bca9;
+}
+.main-navigation li.highlighter a {
+	color: white;
 }
 .main-navigation li.with-sep a {
 	position: relative;
@@ -1220,6 +1230,39 @@ a.menu-toggle {
 	display: table;
 	position: relative;
 }
+#introTeam {
+  background: #14181E url(../images/mountaintop.png) no-repeat center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 340px;
+
+	display: table;
+	position: relative;
+}
+#introData {
+  background: #14181E url(../images/data.png) no-repeat center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 340px;
+
+	display: table;
+	position: relative;
+}
+#introContact {
+  background: #14181E url(../images/contact2.png) no-repeat center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 340px;
+
+	display: table;
+	position: relative;
+}
 .shadow-overlay {
 	position: absolute;
 	top: 0;
@@ -1309,6 +1352,9 @@ a.menu-toggle {
 	}
 }
 @media only screen and (max-width:768px) {
+	#toptxtteam {
+		margin-top: 40px;
+	}
 	#intro {
 		min-height: 660px;
 	}
