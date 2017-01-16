@@ -310,6 +310,24 @@ textarea {
 	margin-left: -20px;
 	margin-right: -20px;
 }
+.row-nb {
+	width: 94%;
+	max-width: 1140px;
+	margin: 0 auto;
+}
+.row-nb:before, .row-nb:after {
+	content: "";
+	display: table;
+}
+.row-nb:after {
+	clear: both;
+}
+.row-nb .row-nb {
+	width: auto;
+	max-width: none;
+	margin-left: -20px;
+	margin-right: -20px;
+}
 [class*="col-"], .bgrid {
 	float: left;
 }
@@ -355,6 +373,9 @@ textarea {
 .col-twelve, .col-full {
 	width: 100%;
 }
+.col-twelve-nb, .col-full {
+	width: 100%;
+}
 .center-row{
 	display: flex;
   flex-direction: row;
@@ -369,6 +390,10 @@ textarea {
 
 @media screen and (max-width:1024px) {
 	.row .row {
+		margin-left: -18px;
+		margin-right: -18px;
+	}
+	.row-nb .row-nb {
 		margin-left: -18px;
 		margin-right: -18px;
 	}
@@ -392,6 +417,17 @@ textarea {
 		padding-right: 30px;
 	}
 	.row .row {
+		padding-left: 0;
+		padding-right: 0;
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	.row-nb {
+		width: auto;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.row-nb .row-nb {
 		padding-left: 0;
 		padding-right: 0;
 		margin-left: -15px;
@@ -434,6 +470,14 @@ textarea {
 		margin-left: -10px;
 		margin-right: -10px;
 	}
+	.row-nb {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.row-nb .row-nb {
+		margin-left: -10px;
+		margin-right: -10px;
+	}
 	[class*="col-"] {
 		padding: 0 10px;
 	}
@@ -462,6 +506,16 @@ textarea {
 		padding-right: 30px;
 	}
 	.row .row {
+		padding-left: 0;
+		padding-right: 0;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.row-nb {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.row-nb .row-nb {
 		padding-left: 0;
 		padding-right: 0;
 		margin-left: 0;
