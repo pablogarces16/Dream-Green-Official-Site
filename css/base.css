@@ -196,7 +196,7 @@ body {
 	line-height: 1;
 	text-rendering: optimizeLegibility;
 	word-wrap: break-word;
-	-webkit-overflow-scrolling: touch;
+	-webkit-overflow-scrolling: auto;
 	-webkit-text-size-adjust: none;
 }
 body, input, button {
