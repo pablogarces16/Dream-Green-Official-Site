@@ -2318,6 +2318,7 @@ a.menu-toggle {
 	.cta-content .stores li .button::before {
 		display: none;
 	}
+
 }
 @media only screen and (max-width:600px) {
 	.cta-content .stores li .button {

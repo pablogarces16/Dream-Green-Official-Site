@@ -458,7 +458,7 @@ textarea {
 		width:22%;
 	}
 	.col-one{
-		width:13%;
+		width:14%;
 	}
 }
 
@@ -485,7 +485,12 @@ textarea {
 		margin-right: -10px;
 	}
 	[class*="col-"] {
-		padding: 0 10px;
+		width: 100% !important;
+		float: none !important;
+		clear: both !important;
+		margin-left: 0;
+		margin-right: 0;
+		padding: 0;
 	}
 	.mob-1-4 {
 		width: 25%;
