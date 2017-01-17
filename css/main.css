@@ -2534,6 +2534,7 @@ footer ul li {
 	right: 0;
 	z-index: 600;
 	display: none;
+	display: block;
 }
 #go-top a {
 	text-decoration: none;
