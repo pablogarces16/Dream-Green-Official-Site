@@ -1204,26 +1204,18 @@ a.menu-toggle {
  *
  * -------------------------------------------------------------------
  */
- video {
-  margin: 0;
-  padding: 0;
-}
-.video {
-  position: fixed;
+ video.background{
+  position: absolute;
   top: 50%;
-  left: 50%;
-  z-index: 1;
+  left:50%;
+  transform: translate(-50%, -50%);
   min-width: 100%;
   min-height: 100%;
-  width: auto;
-  height: auto;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+	height: 100%;
+	width:100%;
+	object-fit:cover;
 }
-
 #intro {
-  background: #14181E url(../images/earthgra.png) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;

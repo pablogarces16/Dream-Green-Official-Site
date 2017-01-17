@@ -38,7 +38,7 @@ section,
 summary {
 	display: block;
 }
-audio, canvas, progress, video {
+audio, canvas, progress{
 	display: inline-block;
 	vertical-align: baseline;
 }
@@ -209,7 +209,7 @@ body, input, button {
  * -
  */
 
-img, video {
+img {
 	max-width: 100%;
 	height: auto;
 }
