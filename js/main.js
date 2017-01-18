@@ -152,7 +152,7 @@
 	------------------------------------------------------ */
 
 	// Example MailChimp url: http://xxx.xxx.list-manage.com/subscribe/post?u=xxx&id=xxx
-	var mailChimpURL = 'https://my.sendinblue.com/users/subscribe/js_id/2o8se/id/1'
+	var mailChimpURL = 'http://livegreenapp.us14.list-manage.com/subscribe/post?u=8e306952f1f415c4091456637&amp;id=61ac5ef552'
 
 	$('#mc-form').ajaxChimp({
 
