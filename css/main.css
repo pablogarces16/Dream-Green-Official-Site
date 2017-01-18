@@ -175,7 +175,7 @@ p img {
 	margin-left: 10px;
 	margin-right: 10px;
 }
-#emailfieldcoming {
+#mc-email{
 	display: block;
     margin-left: auto;
     margin-right: auto;
@@ -3077,12 +3077,3 @@ svg {
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
 }
-
-/**
- * form
- * -
- */
- form .form-form{
-	 left:50%;
-	 transform: translate(-50%, -50%);
- }
