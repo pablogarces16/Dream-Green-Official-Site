@@ -636,6 +636,8 @@ input[type="checkbox"], input[type="radio"] {
  */
 .formtxt {
 	margin-top: 30px;
+	text-align: left;
+	margin-left: 10px;
 }
 .contact-form{
 	padding-top: 3em;
@@ -649,6 +651,10 @@ input[type="checkbox"], input[type="radio"] {
 	border-radius: 10px;
 		margin-top: 10px;
 
+
+}
+.placeholder {
+	color: pink;
 }
 #contact-form-email{
 	vertical-align: middle;
@@ -665,6 +671,19 @@ input[type="checkbox"], input[type="radio"] {
 #teamdescriptor{
 	font-size: 0.9em;
 }
+#formbtn {
+	color: white;
+	border-radius: 10px;
+	width: 40%;
+background-color: #25baa8;
+
+
+}
+#formbtn:hover,
+#formbtn:focus {
+	background-color: #65c5b7;
+
+}
 
 /**
  * Style Placeholder Text
@@ -672,21 +691,21 @@ input[type="checkbox"], input[type="radio"] {
  */
 
 ::-webkit-input-placeholder {
-	color: #a1a1a1;
+	color: #d1d3d4;
 }
 :-moz-placeholder {
 	/* Firefox 18- */
-	color: #a1a1a1;
+	color: #d1d3d4;
 }
 ::-moz-placeholder {
 	/* Firefox 19+ */
-	color: #a1a1a1;
+	color: #d1d3d4;
 }
 :-ms-input-placeholder {
-	color: #a1a1a1;
+	color: #d1d3d4;
 }
 .placeholder {
-	color: #a1a1a1 !important;
+	color: #d1d3d4 !important;
 }
 
 
