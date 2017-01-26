@@ -1595,7 +1595,6 @@ a.menu-toggle {
  	padding-bottom: 10rem;
  	overflow: hidden;
  }
-
 /**
  * ===================================================================
  * process section
@@ -3154,4 +3153,15 @@ svg {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
+}
+
+/*data page*/
+#data{
+	background: #FFFFFF;
+ 	padding-top: 12rem;
+ 	padding-bottom: 10rem;
+ 	overflow: hidden;
+}
+.green-link{
+	color: #05BCA9;
 }
